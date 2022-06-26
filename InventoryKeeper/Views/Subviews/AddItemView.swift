@@ -12,15 +12,21 @@ struct AddItemView: View {
     @State var itemNameField = ""
     @State var itemSizeField = ""
     @State var itemValueField = 0
+    @State var showErrorAlert = false
     var body: some View {
-        Form{
-            TextField("Item Name", text: $itemNameField)
-            TextField("Size", text: $itemSizeField)
-            Button("submit"){
-                ViewState.edititem(UUID(), name: itemNameField, size: itemSizeField, 5)
-                ViewState.commititem(itemtoadd: ViewState.pendingitem)
-            }
-        }.buttonStyle(.bordered)
+        VStack {
+            Form{
+                TextField("Item Name", text: $itemNameField)
+                TextField("Size", text: $itemSizeField)
+                
+            }.alert("Failed to save", isPresented: $showErrorAlert, actions: {})
+            Button("Submit"){var editreturn = 0
+                ViewState.edititem(name: itemNameField, size: itemSizeField)
+                editreturn = ViewState.commititem(itemtoadd: ViewState.pendingitem)
+                if editreturn == 0 {} else {showErrorAlert.toggle()}
+                
+            }.frame(width: 500, height: 500).buttonStyle(.bordered).cornerRadius(10).font(.headline).offset(x: 0, y: -350)
+        }.background(debug.testcolor)
         
     }
 }

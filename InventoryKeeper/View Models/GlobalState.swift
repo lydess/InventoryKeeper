@@ -28,7 +28,7 @@ final class StateManager: ObservableObject {
         }
         return 0
     }
-    func edititem(_ id: UUID?, name:String?, size:String?,_ value:Int?) {
+    func edititem( id: UUID? = UUID(), name:String? = "", size:String? = "", value:Int? = 9684) {
         pendingitem.id = id ?? UUID()
         pendingitem.name = name ?? ""
         pendingitem.size = size ?? ""
