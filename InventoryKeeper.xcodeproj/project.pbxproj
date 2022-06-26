@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CFF7267528683B19005ED65E /* InventoryKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7267428683B19005ED65E /* InventoryKeeperApp.swift */; };
-		CFF7267728683B19005ED65E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7267628683B19005ED65E /* ContentView.swift */; };
+		CFF7267728683B19005ED65E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7267628683B19005ED65E /* RootView.swift */; };
 		CFF7267928683B1A005ED65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF7267828683B1A005ED65E /* Assets.xcassets */; };
 		CFF7267C28683B1A005ED65E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF7267B28683B1A005ED65E /* Preview Assets.xcassets */; };
 		CFF7268628683B1A005ED65E /* InventoryKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7268528683B1A005ED65E /* InventoryKeeperTests.swift */; };
 		CFF7269028683B1A005ED65E /* InventoryKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7268F28683B1A005ED65E /* InventoryKeeperUITests.swift */; };
 		CFF7269228683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7269128683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift */; };
+		CFF726A028683B3F005ED65E /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7269F28683B3F005ED65E /* GlobalState.swift */; };
+		CFF726A328684160005ED65E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF726A228684160005ED65E /* MainView.swift */; };
+		CFF726A628684302005ED65E /* GlobalStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF726A528684302005ED65E /* GlobalStructs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		CFF7267128683B19005ED65E /* InventoryKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF7267428683B19005ED65E /* InventoryKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryKeeperApp.swift; sourceTree = "<group>"; };
-		CFF7267628683B19005ED65E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFF7267628683B19005ED65E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		CFF7267828683B1A005ED65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFF7267B28683B1A005ED65E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFF7268128683B1A005ED65E /* InventoryKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		CFF7268B28683B1A005ED65E /* InventoryKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF7268F28683B1A005ED65E /* InventoryKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryKeeperUITests.swift; sourceTree = "<group>"; };
 		CFF7269128683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFF7269F28683B3F005ED65E /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
+		CFF726A228684160005ED65E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CFF726A528684302005ED65E /* GlobalStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStructs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		CFF7267328683B19005ED65E /* InventoryKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				CFF726A4286842F6005ED65E /* Data */,
+				CFF726A128683B6F005ED65E /* Views */,
+				CFF7269E28683B33005ED65E /* View Models */,
 				CFF7267428683B19005ED65E /* InventoryKeeperApp.swift */,
-				CFF7267628683B19005ED65E /* ContentView.swift */,
 				CFF7267828683B1A005ED65E /* Assets.xcassets */,
 				CFF7267A28683B1A005ED65E /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				CFF7269128683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift */,
 			);
 			path = InventoryKeeperUITests;
+			sourceTree = "<group>";
+		};
+		CFF7269E28683B33005ED65E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7269F28683B3F005ED65E /* GlobalState.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CFF726A128683B6F005ED65E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7267628683B19005ED65E /* RootView.swift */,
+				CFF726A228684160005ED65E /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFF726A4286842F6005ED65E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CFF726A528684302005ED65E /* GlobalStructs.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFF7267728683B19005ED65E /* ContentView.swift in Sources */,
+				CFF7267728683B19005ED65E /* RootView.swift in Sources */,
+				CFF726A328684160005ED65E /* MainView.swift in Sources */,
 				CFF7267528683B19005ED65E /* InventoryKeeperApp.swift in Sources */,
+				CFF726A028683B3F005ED65E /* GlobalState.swift in Sources */,
+				CFF726A628684302005ED65E /* GlobalStructs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

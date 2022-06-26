@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+let GlobalState = StateManager()
+struct RootView: View {
+    @StateObject var ViewState = GlobalState
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        MainView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RootView()
     }
 }
