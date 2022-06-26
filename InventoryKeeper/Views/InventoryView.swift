@@ -11,6 +11,7 @@ import SwiftUI
 
 struct InventoryView: View {
     @StateObject var ViewState = GlobalState
+    @State var testbool = false
     var body: some View {
             VStack {
                 NavigationView{
@@ -20,9 +21,12 @@ struct InventoryView: View {
                     
                 }.background(debug.testcolor)
              
-                Button("additem"){
-                    ViewState.additem()
-                    
+                HStack {
+                    Button("additem"){
+                        ViewState.additem()
+                        
+                    }
+                    Button("Sheet"){testbool.toggle()}.sheet(isPresented: $testbool, content: {AddItemView()}).cornerRadius(20)
                 }.background(debug.testcolor)
                         }.background(debug.testcolor)
         }

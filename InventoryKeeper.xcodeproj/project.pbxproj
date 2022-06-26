@@ -19,6 +19,8 @@
 		CFF726A628684302005ED65E /* GlobalStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF726A528684302005ED65E /* GlobalStructs.swift */; };
 		CFF726A928685093005ED65E /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF726A828685093005ED65E /* Debug.swift */; };
 		CFF726AB286853CA005ED65E /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF726AA286853CA005ED65E /* DebugView.swift */; };
+		CFF726AD2868677F005ED65E /* realemptyview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF726AC2868677F005ED65E /* realemptyview.swift */; };
+		CFF726B028687C18005ED65E /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF726AF28687C18005ED65E /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		CFF726A528684302005ED65E /* GlobalStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStructs.swift; sourceTree = "<group>"; };
 		CFF726A828685093005ED65E /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
 		CFF726AA286853CA005ED65E /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		CFF726AC2868677F005ED65E /* realemptyview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realemptyview.swift; sourceTree = "<group>"; };
+		CFF726AF28687C18005ED65E /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 		CFF726A128683B6F005ED65E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CFF726AE28687C05005ED65E /* Subviews */,
 				CFF7267628683B19005ED65E /* RootView.swift */,
 				CFF726A228684160005ED65E /* InventoryView.swift */,
 				CFF726AA286853CA005ED65E /* DebugView.swift */,
@@ -170,8 +175,17 @@
 			isa = PBXGroup;
 			children = (
 				CFF726A828685093005ED65E /* Debug.swift */,
+				CFF726AC2868677F005ED65E /* realemptyview.swift */,
 			);
 			path = Debug;
+			sourceTree = "<group>";
+		};
+		CFF726AE28687C05005ED65E /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				CFF726AF28687C18005ED65E /* AddItemView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,9 +319,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF7267728683B19005ED65E /* RootView.swift in Sources */,
+				CFF726B028687C18005ED65E /* AddItemView.swift in Sources */,
 				CFF726A928685093005ED65E /* Debug.swift in Sources */,
 				CFF726A328684160005ED65E /* InventoryView.swift in Sources */,
 				CFF726AB286853CA005ED65E /* DebugView.swift in Sources */,
+				CFF726AD2868677F005ED65E /* realemptyview.swift in Sources */,
 				CFF7267528683B19005ED65E /* InventoryKeeperApp.swift in Sources */,
 				CFF726A028683B3F005ED65E /* GlobalState.swift in Sources */,
 				CFF726A628684302005ED65E /* GlobalStructs.swift in Sources */,
