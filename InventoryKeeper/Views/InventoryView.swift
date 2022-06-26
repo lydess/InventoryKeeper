@@ -11,40 +11,21 @@ import SwiftUI
 
 struct InventoryView: View {
     @StateObject var ViewState = GlobalState
-    
-    
     var body: some View {
-        
-        ZStack {
-            VStack{
-                
-            }.frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height + 0, alignment: .center)
             VStack {
                 NavigationView{
-                    Section{
                     List(ViewState.Itemlist, id: \.self) { Inven in
+                        NavigationLink(Inven.name, destination: {Text(Inven.size)}).padding()
+                    }.background(debug.testcolor).listStyle(.sidebar)
                     
-                        NavigationLink(Inven.name, destination: {Text(Inven.size)})
-                
-                    }
-                        
-                    }
+                }.background(debug.testcolor)
+             
+                Button("additem"){
+                    ViewState.additem()
                     
-                    
-                    
-                    
-                }.onAppear(){ViewState.additem()}
-              Spacer()
-                Text("d")
-                
-               
-                    
-            }
-            
-            
-        }.background(.red)
-        
-    }
+                }.background(debug.testcolor)
+                        }.background(debug.testcolor)
+        }
 }
 
 struct InventoryView_Previews: PreviewProvider {
