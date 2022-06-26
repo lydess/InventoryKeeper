@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFF7267528683B19005ED65E /* InventoryKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7267428683B19005ED65E /* InventoryKeeperApp.swift */; };
+		CFF7267728683B19005ED65E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7267628683B19005ED65E /* ContentView.swift */; };
+		CFF7267928683B1A005ED65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF7267828683B1A005ED65E /* Assets.xcassets */; };
+		CFF7267C28683B1A005ED65E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF7267B28683B1A005ED65E /* Preview Assets.xcassets */; };
+		CFF7268628683B1A005ED65E /* InventoryKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7268528683B1A005ED65E /* InventoryKeeperTests.swift */; };
+		CFF7269028683B1A005ED65E /* InventoryKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7268F28683B1A005ED65E /* InventoryKeeperUITests.swift */; };
+		CFF7269228683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7269128683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFF7268228683B1A005ED65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF7266928683B19005ED65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF7267028683B19005ED65E;
+			remoteInfo = InventoryKeeper;
+		};
+		CFF7268C28683B1A005ED65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF7266928683B19005ED65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF7267028683B19005ED65E;
+			remoteInfo = InventoryKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFF7267128683B19005ED65E /* InventoryKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF7267428683B19005ED65E /* InventoryKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryKeeperApp.swift; sourceTree = "<group>"; };
+		CFF7267628683B19005ED65E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFF7267828683B1A005ED65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF7267B28683B1A005ED65E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFF7268128683B1A005ED65E /* InventoryKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF7268528683B1A005ED65E /* InventoryKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryKeeperTests.swift; sourceTree = "<group>"; };
+		CFF7268B28683B1A005ED65E /* InventoryKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF7268F28683B1A005ED65E /* InventoryKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryKeeperUITests.swift; sourceTree = "<group>"; };
+		CFF7269128683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF7266E28683B19005ED65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF7267E28683B1A005ED65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF7268828683B1A005ED65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF7266828683B19005ED65E = {
+			isa = PBXGroup;
+			children = (
+				CFF7267328683B19005ED65E /* InventoryKeeper */,
+				CFF7268428683B1A005ED65E /* InventoryKeeperTests */,
+				CFF7268E28683B1A005ED65E /* InventoryKeeperUITests */,
+				CFF7267228683B19005ED65E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF7267228683B19005ED65E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7267128683B19005ED65E /* InventoryKeeper.app */,
+				CFF7268128683B1A005ED65E /* InventoryKeeperTests.xctest */,
+				CFF7268B28683B1A005ED65E /* InventoryKeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF7267328683B19005ED65E /* InventoryKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7267428683B19005ED65E /* InventoryKeeperApp.swift */,
+				CFF7267628683B19005ED65E /* ContentView.swift */,
+				CFF7267828683B1A005ED65E /* Assets.xcassets */,
+				CFF7267A28683B1A005ED65E /* Preview Content */,
+			);
+			path = InventoryKeeper;
+			sourceTree = "<group>";
+		};
+		CFF7267A28683B1A005ED65E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7267B28683B1A005ED65E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFF7268428683B1A005ED65E /* InventoryKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7268528683B1A005ED65E /* InventoryKeeperTests.swift */,
+			);
+			path = InventoryKeeperTests;
+			sourceTree = "<group>";
+		};
+		CFF7268E28683B1A005ED65E /* InventoryKeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7268F28683B1A005ED65E /* InventoryKeeperUITests.swift */,
+				CFF7269128683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift */,
+			);
+			path = InventoryKeeperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF7267028683B19005ED65E /* InventoryKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF7269528683B1A005ED65E /* Build configuration list for PBXNativeTarget "InventoryKeeper" */;
+			buildPhases = (
+				CFF7266D28683B19005ED65E /* Sources */,
+				CFF7266E28683B19005ED65E /* Frameworks */,
+				CFF7266F28683B19005ED65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InventoryKeeper;
+			productName = InventoryKeeper;
+			productReference = CFF7267128683B19005ED65E /* InventoryKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF7268028683B1A005ED65E /* InventoryKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF7269828683B1A005ED65E /* Build configuration list for PBXNativeTarget "InventoryKeeperTests" */;
+			buildPhases = (
+				CFF7267D28683B1A005ED65E /* Sources */,
+				CFF7267E28683B1A005ED65E /* Frameworks */,
+				CFF7267F28683B1A005ED65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF7268328683B1A005ED65E /* PBXTargetDependency */,
+			);
+			name = InventoryKeeperTests;
+			productName = InventoryKeeperTests;
+			productReference = CFF7268128683B1A005ED65E /* InventoryKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFF7268A28683B1A005ED65E /* InventoryKeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF7269B28683B1A005ED65E /* Build configuration list for PBXNativeTarget "InventoryKeeperUITests" */;
+			buildPhases = (
+				CFF7268728683B1A005ED65E /* Sources */,
+				CFF7268828683B1A005ED65E /* Frameworks */,
+				CFF7268928683B1A005ED65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF7268D28683B1A005ED65E /* PBXTargetDependency */,
+			);
+			name = InventoryKeeperUITests;
+			productName = InventoryKeeperUITests;
+			productReference = CFF7268B28683B1A005ED65E /* InventoryKeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF7266928683B19005ED65E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CFF7267028683B19005ED65E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CFF7268028683B1A005ED65E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CFF7267028683B19005ED65E;
+					};
+					CFF7268A28683B1A005ED65E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CFF7267028683B19005ED65E;
+					};
+				};
+			};
+			buildConfigurationList = CFF7266C28683B19005ED65E /* Build configuration list for PBXProject "InventoryKeeper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF7266828683B19005ED65E;
+			productRefGroup = CFF7267228683B19005ED65E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF7267028683B19005ED65E /* InventoryKeeper */,
+				CFF7268028683B1A005ED65E /* InventoryKeeperTests */,
+				CFF7268A28683B1A005ED65E /* InventoryKeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF7266F28683B19005ED65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF7267C28683B1A005ED65E /* Preview Assets.xcassets in Resources */,
+				CFF7267928683B1A005ED65E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF7267F28683B1A005ED65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF7268928683B1A005ED65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF7266D28683B19005ED65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF7267728683B19005ED65E /* ContentView.swift in Sources */,
+				CFF7267528683B19005ED65E /* InventoryKeeperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF7267D28683B1A005ED65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF7268628683B1A005ED65E /* InventoryKeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF7268728683B1A005ED65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF7269028683B1A005ED65E /* InventoryKeeperUITests.swift in Sources */,
+				CFF7269228683B1A005ED65E /* InventoryKeeperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFF7268328683B1A005ED65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF7267028683B19005ED65E /* InventoryKeeper */;
+			targetProxy = CFF7268228683B1A005ED65E /* PBXContainerItemProxy */;
+		};
+		CFF7268D28683B1A005ED65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF7267028683B19005ED65E /* InventoryKeeper */;
+			targetProxy = CFF7268C28683B1A005ED65E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFF7269328683B1A005ED65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF7269428683B1A005ED65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF7269628683B1A005ED65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InventoryKeeper/Preview Content\"";
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lydess.InventoryKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF7269728683B1A005ED65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InventoryKeeper/Preview Content\"";
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lydess.InventoryKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFF7269928683B1A005ED65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lydess.InventoryKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InventoryKeeper.app/InventoryKeeper";
+			};
+			name = Debug;
+		};
+		CFF7269A28683B1A005ED65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lydess.InventoryKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InventoryKeeper.app/InventoryKeeper";
+			};
+			name = Release;
+		};
+		CFF7269C28683B1A005ED65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lydess.InventoryKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InventoryKeeper;
+			};
+			name = Debug;
+		};
+		CFF7269D28683B1A005ED65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lydess.InventoryKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InventoryKeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF7266C28683B19005ED65E /* Build configuration list for PBXProject "InventoryKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF7269328683B1A005ED65E /* Debug */,
+				CFF7269428683B1A005ED65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF7269528683B1A005ED65E /* Build configuration list for PBXNativeTarget "InventoryKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF7269628683B1A005ED65E /* Debug */,
+				CFF7269728683B1A005ED65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF7269828683B1A005ED65E /* Build configuration list for PBXNativeTarget "InventoryKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF7269928683B1A005ED65E /* Debug */,
+				CFF7269A28683B1A005ED65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF7269B28683B1A005ED65E /* Build configuration list for PBXNativeTarget "InventoryKeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF7269C28683B1A005ED65E /* Debug */,
+				CFF7269D28683B1A005ED65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF7266928683B19005ED65E /* Project object */;
+}
