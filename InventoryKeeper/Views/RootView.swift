@@ -8,10 +8,15 @@
 import SwiftUI
 
 let GlobalState = StateManager()
+let debug = Debug()
 struct RootView: View {
     @StateObject var ViewState = GlobalState
     var body: some View {
-        MainView()
+        TabView{
+            InventoryView().tabItem{(Image(systemName: "house.fill"))}
+            DebugView().tabItem{(Image(systemName: "wrench.and.screwdriver"))}
+        }
+        
     }
 }
 
